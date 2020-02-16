@@ -1,0 +1,110 @@
+\documentclass[10pt,letter]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{395899}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Nelson Enrique Bermúdez Moreno}
+\tagline{Electronic Engineer}
+\photo{2.5cm}{3152057}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{nelson.bermudez@unisabana.edu.co}
+  \phone{301 7557532 - 310 8608833}
+  \mailaddress{Carrera 72I No.42 F Sur 83 Interior 15 Apto 202}
+  \location{Bogotá, Colombia}
+  %\homepage{marissamayr.tumblr.com/}
+  \twitter{@nelsonbermudez}
+  \linkedin{linkedin.com/in/nelson-bermudez-6b79b65}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Service Account Manager Colombia}{Suma Movil - JSC Ingenium}{Feb. 2019 -- Today }{Bogotá D.C.}
+\begin{itemize}
+\item Responsible of Revenue Assurance to Co-Branding Clients.
+\item Platform Assurance, detection of revenue leaks, performance plans and new product requeriments.
+\item Product Assurance, new products development and co-branding customers new requeriments of products (Voice, SMS, Data) . 
+\item Project Assurance for development of new brands of operators on MVNO model, include Kalley Móvil and Wings Mobile Colombia
+\end{itemize}
+
+\divider
+
+
+\cvevent{Technologic Risk Leader}{TigoUne}{July 2015 -- Feb. 2019}{Medellín, Antioquia}
+\begin{itemize}
+\item Team leader in charge of detection, countermeasures tactics and control about techical fraud on TigoUne.
+\item Responsible of risk value and evaluations about risk controls for reduce frauds on Telecom services and products.
+\item Management of control rules about to combat of frauds applicable to Internal Control Framework
+\item I participed on reduction on 95\% on free internet fraud in last 2 years.
+\item Lead to reduction on 90\% on fraud in Long Distance voice services and International Roaming Services
+\item Local embassador of Millicom Headquaters for fraud technical controls in Colombia.
+\item Expositor on GSMA conference in Security and Fraud Group in last 2 years.
+\end{itemize}
+
+\divider
+
+
+
+\cvevent{Fraud and Internal Control Specialist}{Colombia Móvil SA ESP.}{Oct. 2013 -- Jul. 2015}{Bogotá D.C.}
+\begin{itemize}
+\item Responsible of Revenue Assurance advisor about TigoUne.
+\item During three months I was a Informatic Security Leader in TigoUne
+\item I was a Millicom support about reports of fraud cases on others Tigo operations. 
+\end{itemize}
+
+\divider
+
+\clearpage
+\cvsection[page2sidebar]{Experience}
+
+\cvevent{Especialista de Operación y Mantenimiento CORE}{Colombia Movil}{Junio 2006 --  Septiembre 2013}{Bogotá D.C.}
+\begin{itemize}
+\item Responsible for operation and maintenance of VAS/SMS and Core Network Platforms. 
+\item SOX Controls Executor for Network Platforms.
+\end{itemize}
+\divider
+\divider
+ 	
+\cvevent{NOC analyst}{Colombia Móvil SA ESP.}{Oct. 2004 -- Jun. 2006}{Bogotá D.C}
+\begin{itemize}
+\item Tracking and monitoring of operation continuity on GSM Network.
+\end{itemize}
+\end{document}

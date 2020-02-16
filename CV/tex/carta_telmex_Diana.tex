@@ -1,0 +1,74 @@
+\documentclass[12pt]{letter} % 10pt font size default, 11pt and 12pt are also possible
+\date{Marzo 16, 2019}
+\usepackage{geometry} 
+\geometry{
+	paper=letterpaper, % Change to letterpaper for US letter
+	top=2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	left=3cm, % Left margin
+	right=3cm, % Right margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+
+\usepackage{stix} % Use the Stix font by default
+
+\usepackage{microtype} % Improve justification
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\signature{\textbf{Diana Marcela Ruiz Quiroz}\\CC. 527666112} % Your name for the signature at the bottom
+
+\address{Carrera 72I No. 42F-83 Sur\\ Int.15 Apto.202 \\ Conjunto Residencial La Alejandra Etapa 1 \\ Bogotá D.C. 110841\\ (031) 270-9311} % Your address and phone number
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{Señores \\ \textbf{Claro SA Servicios Hogares}  \\ Bogotá D.C} % Name/title of the addressee
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{\textbf{Respetados Señores,}}
+
+Por medio de la presente, yo \textbf{\emph{DIANA MARCELA RUIZ QUIROZ}} identificada con la Cédula de Ciudadanía No. \emph{52.766.112} como
+responsable del servicio de televisión localizado en la Ciudad de Bogotá en la direccion \textbf{Carrera 72I No. 42F-83 Sur Int.15 Apto.202}, 
+hago entrega de los equipos de comunicaciones que fueron usados en el servicio de television en dicha direccion.
+
+Los equipos entregados son:
+
+    \begin{tabular}{|l|l|l|}
+        \hline
+        Equipo   & Referencia & Serial            \\ \hline
+        Coship   & N5266C-L   & 00375412090945394 \\ \hline
+        Coship   & N5266C-L   & 00375412090934608 \\ \hline
+        Motorola & DCX700     & 94CCB95768DB      \\ \hline
+    \end{tabular}
+
+Con sus respectivos cargadores y controles remotos.
+
+Agradeciendo su prestación de servicios durante estos años.
+
+\vspace{2\parskip} % Extra whitespace for aesthetics
+\closing{Cordialmente,}
+\vspace{2\parskip} % Extra whitespace for aesthetics
+
+%\ps{} % Postscript text, comment this line to remove it
+
+%\encl{Copyright permission form} % Enclosures with the letter, comment this line to remove it
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+ 
+\end{document}

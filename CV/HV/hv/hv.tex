@@ -1,0 +1,105 @@
+\documentclass[10pt,letter]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Nelson Enrique Bermúdez Moreno}
+\tagline{Ingeniero Electrónico}
+\photo{4.0cm}{3152057}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{nelson.bermudez@unisabana.edu.co}
+  \phone{301 7557532 - 310 8608833}
+  \mailaddress{Carrera 72I No. 42F-83 Sur Int. 15 Apto 202}
+  \location{Bogotá DC.} 
+  %\homepage{marissamayr.tumblr.com/}
+  \twitter{@nelsonbermudez}
+  \linkedin{linkedin.com/in/nelson-bermudez-6b79b65}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experiencia}
+\cvevent{Service Account Manager}{Suma Movil SAS}{Febrero 2019 -- Actualmente}{Bogotá DC.}
+\begin{itemize}
+\item Encargado de gestionar los requerimientos del cliente Kalley entre Colombia y España.
+\item Programación de la plataforma de MVNO para la apertura del servicio Kalley Móvil.
+\item Apertura de una nueva marca en 4 meses, con cobertura nacional de servicios LTE y 3G.
+\item Colaboración en el despliegue comercial de 8000 clientes en almacenes Alkosto, K-tronix y Alkomprar.
+\end{itemize}
+\cvevent{Lider Riesgo Tecnológico}{TigoUne}{Julio 2015 -- Enero 2019}{Medellín, Antioquia}
+\begin{itemize}
+\item Lider del equipo encargado de la detección, contención y gestión de los fraudes técnicos de la operación de telecomunicaciones de TigoUne.
+\item Gestión de los controles internos y de entidad asociados a la operación de Tecnología y de Telecomunicaciones de TigoUne
+\item Contribuí a la reducción en un 95\% del fraude de Internet Gratis en los ultimos 2 años.
+\item Se gestiona métodos que reducen en un 90\% los ajustes por fraudes en servicios prepago de LDI y de Roaming Internacional.
+\item Gestión de temas de fraude entre operación local y Casa Matriz Millicom para temas de control de fraude y Aseguramiento de Ingreso sobre plataformas técnicas.
+\item Ponente en temas de control de fraude para el grupo de Trabajo de la GSMA Grupo de Seguridad y Fraude
+\item Detección de fraudes valorados de USD2MM en 4 años.
+\end{itemize}
+
+\divider
+ 
+\cvevent{Especialista de Control Interno y Fraude}{Colombia Móvil SA ESP.}{Octubre 2013 -- Julio 2015}{Bogotá D.C.}
+\begin{itemize}
+\item Responsable de la verificación de controles de Aseguramiento del Ingreso para procesos de Tecnología y sistemas de telecomunicaciones móviles como plataformas de servicios y prepago.
+\item Durante tres meses fuí encargado de la Gerencia de Seguridad Informática de Colombia Movil.
+\item Soporte para Millicom para temas de investigaciones de fraude en Centrales Telefónicas y sistemas Prepago. 
+\end{itemize}
+ 
+\divider
+	
+\clearpage
+\cvsection[page2sidebar]{Experiencia}
+
+\cvevent{Especialista de Operación y Mantenimiento CORE}{Colombia Movil}{Junio 2006 --  Septiembre 2013}{Bogotá D.C.}
+\begin{itemize}
+\item Responsable del manejo de las plataformas de VAS/Voz/Datos CORE de Colombia Movil. 
+\item Ejecutor de Controles SOX sobre estas plataformas de Tecnología.
+\end{itemize}
+\divider
+
+
+\cvevent{Analista de NOC}{Colombia Móvil SA ESP.}{Oct. 2004 -- Jun. 2006}{Bogotá D.C}
+\begin{itemize}
+\item Responsable de custodia de alarmas y monitoreo de fallas de Red GSM
+\end{itemize}
+
+
+\end{document}

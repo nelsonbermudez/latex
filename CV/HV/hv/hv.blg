@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[1] Config.pm:307> INFO - Logfile is 'hv.blg'
+[37] biber:315> INFO - === dom oct 20, 2019, 21:17:52
+[65] Biber.pm:371> INFO - Reading 'hv.bcf'
+[159] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[170] Utils.pm:193> WARN - The file 'hv.bcf' does not contain any citations!
+[181] bbl.pm:636> INFO - Writing 'hv.bbl' with encoding 'UTF-8'
+[181] bbl.pm:739> INFO - Output to hv.bbl
+[181] Biber.pm:110> INFO - WARNINGS: 1
